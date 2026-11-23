@@ -1,0 +1,138 @@
+{
+ "judul": "Last Gas Station - Part 1",
+ "awal": 1.5,
+ "format": "potret",
+ "catatan": "POV fisheye, What Would You Do. Fiksi orisinal.",
+ "baris": [
+  {
+   "id": "g01",
+   "scene": "kasir",
+   "who": "sam",
+   "emo": "netral",
+   "text": "Three a.m. Worst shift ever.",
+   "jeda": 0.3,
+   "arah": "(bored and tired, sarcastic, sighing, mumbling to himself)"
+  },
+  {
+   "id": "g02",
+   "scene": "radio",
+   "who": "radio",
+   "emo": "takut",
+   "text": "Reports of attacks along Route Nine. Do not let anyone inside. Do not let anyone...",
+   "jeda": 0.2,
+   "arah": "(urgent alarmed emergency broadcast, tense and fast, voice rising with fear)",
+   "fx": "highpass=f=300,lowpass=f=4000,volume=1.6"
+  },
+  {
+   "id": "g03",
+   "scene": "kanopi",
+   "who": "sam",
+   "emo": "takut",
+   "text": "Route Nine... that's us.",
+   "jeda": 0.3,
+   "arah": "(slow scared realization, quiet shaky voice, frightened)"
+  },
+  {
+   "id": "g04",
+   "scene": "gedor",
+   "who": null,
+   "dur": 1.2
+  },
+  {
+   "id": "g05",
+   "scene": "kaca",
+   "who": "trucker",
+   "emo": "teriak",
+   "text": "Kid! Open up! They're right behind me!",
+   "arah": "(screaming in panic, desperate and out of breath, pleading loudly)"
+  },
+  {
+   "id": "g06",
+   "scene": "kunci",
+   "who": "sam",
+   "emo": "takut",
+   "text": "What happened to your arm?",
+   "arah": "(nervous and suspicious, voice trembling, hesitant)"
+  },
+  {
+   "id": "g07",
+   "scene": "lengan",
+   "who": "trucker",
+   "emo": "teriak",
+   "text": "It's nothing! Just a scratch! Please!",
+   "jeda": 0.3,
+   "arah": "(desperate panicked begging, shouting, voice cracking)"
+  },
+  {
+   "id": "g08",
+   "scene": "lorong",
+   "who": null,
+   "dur": 2.0
+  },
+  {
+   "id": "g09",
+   "scene": "toilet",
+   "who": "sam",
+   "emo": "bisik",
+   "text": "That bathroom's been locked all night...",
+   "jeda": 0.8,
+   "arah": "(terrified whisper, very quiet, breathing nervously)"
+  },
+  {
+   "id": "g10",
+   "scene": "toilet_dekat",
+   "who": "tiruan",
+   "emo": "bisik",
+   "text": "Worst shift ever...",
+   "jeda": 0.5,
+   "arah": "(creepy slow whisper, eerie and cold, unnaturally calm, sinister)",
+   "fx": "apad=pad_dur=0.6,aecho=0.8:0.6:45:0.25"
+  },
+  {
+   "id": "g11",
+   "scene": "gerombolan",
+   "who": "trucker",
+   "emo": "teriak",
+   "text": "They're here! Open the door!",
+   "arah": "(screaming in terror, hysterical, frantic)"
+  },
+  {
+   "id": "g12",
+   "scene": "gagang",
+   "who": null,
+   "dur": 2.2
+  },
+  {
+   "id": "g13",
+   "scene": "mundur",
+   "who": "sam",
+   "emo": "teriak",
+   "text": "No, no, no...",
+   "jeda": 0.4,
+   "arah": "(panicked and terrified, breathless, voice shaking, backing away)"
+  },
+  {
+   "id": "g14",
+   "scene": "pilihan",
+   "who": null,
+   "dur": 6.0
+  }
+ ],
+ "tokoh": {
+  "sam": {
+   "desain": "(young American man in his early twenties, tired night-shift gas station clerk, casual natural voice, relaxed)",
+   "ref_teks": "Man, this place is dead tonight. Nobody has come in here for hours, and the coffee machine is broken again."
+  },
+  "trucker": {
+   "desain": "(big middle-aged American truck driver, deep gravelly rough voice, strong)",
+   "ref_teks": "I've been driving this road for twenty years, and I have never seen a night as quiet as this one."
+  },
+  "radio": {
+   "desain": "(American female news anchor reading an emergency broadcast on the radio, urgent and serious)",
+   "ref_teks": "This is an emergency broadcast. Stay indoors, keep your doors locked, and wait for further instructions."
+  },
+  "tiruan": {
+   "pakai": "sam"
+  }
+ }
+}

@@ -1,0 +1,9 @@
+node_modules/
+out/
+.remotion_tmp/
+sfx_cache/
+__pycache__/
+.env
+*.wav
+*.mp3
+*.mp4
